@@ -1,0 +1,32 @@
+{
+  "name": "pesulap/shoptet",
+  "description": "",
+  "keywords": [
+    "pesulap"
+  ],
+  "homepage": "https://github.com/Pesulap/test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Petr Pešula",
+      "email": "p.pesula@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.3",
+    "guzzlehttp/guzzle": ">=6.5.3",
+    "psr/http-message": "*",
+    "kuria/enum": "5.1.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "tracy/tracy": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pesulap\\Shoptet\\": "src"
+    }
+  }
+}
